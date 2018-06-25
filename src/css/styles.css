@@ -1,0 +1,68 @@
+/* COMMENTS ARE MADE AS A NOTE ON WHAT TO FIX IN THE FUTURE AS I ABSORB THE KNOWLEDGE AND WISOM OF THE INSTRUCTORS 
+  AND ACQUIRE MORE SKILLS SINCE I CAN'T GET EVERYTHING TO WORK EXACTLY THE WAY I WANT IT TO RIGHT NOW.
+  (SUMMER 2018 COHORT INSIDE JOKE INSERTED ABOVE IN CASE ALAN IS GRADING AND DOESN'T KNOW -- ASK DONNY IF UNSURE) */
+
+/* REMOVE REDUNDANT CODE WITHOUT AFFECTING NECESSARY CODE */
+
+/* USE BETTER FONT WHERE APPROPRIATE */
+
+/* MAKE BACKGROUND ONE FLUID IMAGE -- NOT A REPEATING BLOCKY TRANSITION.
+   LINKS TO "ABOUT ME" / "SKILLS" / PROJECT PAGES COULD BE SOLUTION */
+
+/* FIGURE OUT WHAT IS CAUSING YELLOW WARNINGS IN ECLIPSE SO PROJECT SCREENSHOTS LOOK BETTER */
+
+/* FIX WHITE SPACE WHERE APPROPRIATE */
+
+html * {
+   font-size: 1em;
+   color: #FFFFFF;
+   font-family: Arial;  
+}
+.aboutMe {
+  text-align: center;
+}
+.contactInfo {
+  text-align: center;
+  font-size: 25px;
+  display: block;
+}
+div {
+  text-align:center;
+  border: 2px solid black;
+  font-size: 20px;
+  font-family:sans-serif;
+}
+footer {
+  text-align: center;
+}
+h1 {
+  font-size:40px;
+  font-family: verdana;
+  text-align:center;
+  color: rgb(208,34,34);
+}
+h3 {
+  font-size:30px;
+  text-align: center;
+}
+h4 {
+  font-size:25px;
+}
+.me { /* FLOAT IMAGE LEFT, CONTACT INFO/LINKS RIGHT, BUT CENTERED AND MORE AESTHETICALLY PLEASING */
+  float: left;   
+}
+nav { /* MAKE LIST HORIZONTAL WITHOUT AFFECTING FUTURE LISTS THAT ARE VERTICAL */
+  text-align:center;
+  border: 2px solid black;
+  list-style: none;
+  font-size: 20px;
+  font-family:sans-serif;
+}
+.skills {
+  text-align: center;
+}
+ul, li {
+  display:block;
+}
+
+ 
