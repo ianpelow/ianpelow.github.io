@@ -1,81 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Homepage</title>
-	<script src=".js/javascript.js"></script>
+	<title>Ian J. Pelow</title>
 	<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen">
 </head>
-<body background="https://www.publicdomainpictures.net/pictures/40000/velka/blue-abstract-background.jpg">
+<body background="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/itCjTBE/red-grey-bright-abstract-squares-tech-background-seamless-loop-design-video-animation-hd-1920x1080_edmpahiue__F0000.png">
+
 <header>
-	<h1 onmouseover="this.style.color = 'yellow'">Header changes color on mouseover. Better JS coming by August.</h1>
+	<h1>Ian J. Pelow<br />
+	 Portfolio & Contact Info
+	</h1>
+
 <nav>
-	<ul class="navButtons">
-		<li> (insert navigation) </li>
-		<li> (insert navigation) </li>
-		<li> (insert navigation) </li>
-	</ul>
+	<div class="dropdown">
+	<button onclick="myFunction()" class="dropbtn">Featured Projects</button>
+		<div id="myDropdown" class="dropdown-content">
+			<a href="project1.html" target="_self">Full-Stack Reviews Site</a>
+			<a href="project2.html" target="_self">Virtual Pets Revenge</a>
+			<a href="project3.html" target="_self">Virtual Pets Amok</a>
+		</div>
+	</div>
 </nav>
-</header>
+
 <main>
- <div classstyle="display:table-cell;float:left;">
-    <img src="./image/ianpelowlinkedinpic.jpg" class="mePhoto" />
-  </div>
-<div style="display:table">
-  <div class="design" style="display:table-cell; vertical-align:top;">
-    <ul>
-      <li><a href="https://github.com/ianpelow" target="_blank">GitHub</a></li>
-      <li><a href="https://www.linkedin.com/in/ianpelow/" target="_blank">LinkedIn</a></li>
-      <li>ipelow@kent.edu</li>
- </div>
+</header>
+
+	<div>
+		<img src="./image/ianpelowlinkedinpic.jpg" class="mePhoto" />
+	</div>
+	<div class="contactBox">
+			<ul>
+				<li><a href="https://github.com/ianpelow" target="_blank">GitHub</a></li>
+				<li><a href="https://www.linkedin.com/in/ianpelow/" target="_blank">LinkedIn</a></li>
+				<li>ipelow@kent.edu</li>
+	 </div>
+	 
+ 	<button id="btn"><strong>About me</strong></button>
+	<div id="myModal" class="popup">
+		<!-- Modal content -->
+		<div class="popup-content">
+			 <div class="popup-header">
+					<span class="end">×</span>
+					<h2>About me</h2>
+			 </div>
+			 <div class="popup-body">
+					<p>Certificate of Software Development - We Can Code IT (2018) <br />
+						 B.A. Interpersonal Communication - Kent State University (2013) <br />
+						 <br />
+						 I have attended Kent State University and received my Bachelor of Arts degree in Interpersonal Communication. I then completed a full-time, 5-star-rated coding boot camp, learning agile full-stack software development from expert instructors and intensive hands-on projects. Planned, designed, and developed professionally programmed applications in collaborative team-based and independent settings, demonstrating the proficiency to earn Software Development Certificate. All that I have learned while attending Kent State University to receive my Bachelor of Arts degree in Interpersonal Communication will be instrumental in working in a professional setting that utilizes the skills 
+						 I have acquired in software development with We Can Code It.</p> 
+						 <br />						 
+			 </div>
+		</div>
+	</div>
 </div>
-<section class="aboutMe">
-	<h3 style="color: #c60000;">About Me</h3>
-		<p> B.A. Interpersonal Communication - Kent State University (2013)</p>
-		<p> Certificate of Software Development - We Can Code IT (2018) </p>
-		I have attended Kent State University and received my Bachelor of Arts degree in Interpersonal Communication. I then completed a full-time, 5-star-rated coding boot camp, <br>
-		learning agile full-stack software development from expert instructors and intensive hands-on projects. Planned, designed, and developed professionally programmed applications <br>
-		 in collaborative team-based and independent settings, demonstrating the proficiency to earn Software Development Certificate. All that I have learned while attending <br>
-		 Kent State University to receive my Bachelor of Arts degree in Interpersonal Communication will be instrumental in working in a professional setting that utilizes the skills <br>
-		 I have acquired in software development with We Can Code It.</p>
-</section>
-<section class="skills">
-	<h3 style="color: #c60000;">Skills</h3>
-		<ol>
-			<li> Petting cats </li>
-			<li> Switch / case </li>
-			<li> If / else if statements </li>
-			<li> Not much else </li>
-			<li> Perseverence to gain many skills at WCCI </li>
-			<li> Missing the Java days </li>
-		</ol>
-</section>
-<article>
-	<h3 style="color: #c60000;">Project previews</h3>
-	<ul>
-		<li>
-			<h2 id="header4" onmouseover="myFunction()"><strong>reviews-site</strong></h4>
-			<img src="./image/reviews-site.png" alt="reviews-site code">
-			<p>Project for <em>We Can Code IT</em> course utilizing: <strong>Java, Test Driven Development (TDD)</strong></p>
-			<p>See <a href="https://github.com/ianpelow/reviews-site" target="_blank">reviews-site</a> on GitHub</p>
-		</li>
-		<li>
-			<h4><strong>virtual-pets-amok</strong></h4>
-			<img src="./image/virtual-pets-amok.png" alt="virtual-pets-amok">
-			<p>Project for <em>We Can Code IT</em> course utilizing: <strong>Java, Test Driven Development (TDD), HTML, CSS</strong></p>
-			<p>See <a href="https://github.com/ianpelow/virtual-pets-amok" target="_blank">virtual-pets-amok</a> on GitHub</p>
-		</li>
-		<li>
-			<h4><strong>fortune-teller-app</strong></h4></p>
-			<img src="./image/fortune-teller.png" alt="fortune-teller">
-			<p>Project for <em>We Can Code IT</em> course utilizing: <strong>Java</strong></p>
-			<p>See <a href="https://github.com/ianpelow/fortune-teller-app" target="_blank">fortune-teller-app</a> on GitHub</p>
-		</li>
-	</ul>
-</article>
 </main>
 
-<footer>
-	<p><em>Ian Pelow Productions  June 2018&copy;  </em></p>
-</footer>
+<!-- <footer> Footer? </footer> -->
+
+	<script src="./js/javascript.js"></script>
 </body>
 </html>
