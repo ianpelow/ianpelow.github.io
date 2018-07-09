@@ -1,20 +1,3 @@
-// MODAL
-
-var popup = document.getElementById('myModal');
-         var myBytton = document.getElementById("btn");
-         var span = document.getElementsByClassName("end")[0];
-         myBytton.onclick = function() {
-            popup.style.display = "block";
-         }
-         span.onclick = function() {
-            popup.style.display = "none";
-         }
-         window.onclick = function(event) {
-            if (event.target == popup) {
-               popup.style.display = "none";
-            }
-         }
-
 // DROPDOWN
 
 function myFunction() {
@@ -35,10 +18,19 @@ if (!event.target.matches('.dropbtn')) {
 }
 }
 
-//CAROUSEL
+// MODAL
 
-
-
-
-
-
+var popup = document.getElementById('myModal');
+         var myBytton = document.getElementById("btn");
+         var span = document.getElementsByClassName("end")[0];
+         myBytton.onclick = function() {
+            popup.style.display = "block";
+         }
+         span.onclick = function() {
+            popup.style.display = "none";
+         }
+         window.onclick = function(event) {
+            if (event.target == popup) {
+               popup.style.display = "none";
+            }
+         }
