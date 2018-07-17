@@ -1,5 +1,4 @@
 /* DROPDOWN */
-/* FIGURE OUT HOW TO PLACE THIS WHERE YOU WANT IT */
 
 .dropbtn {
   background-color: #D11512;
@@ -40,8 +39,22 @@
 
 .show {display:block;}
 
+/* FLEXBOX */
+
+.contactBox {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  color: #C5B7B7;
+}
+
+.contactBox {
+  width: 100px;
+  height: 100px;
+  padding-left: 11rem;
+}
+
 /* MODAL */
-/* FIGURE OUT HOW TO PLACE THIS WHERE YOU WANT IT */
 
 .popup {
   display: none;
@@ -82,21 +95,6 @@
   background-color: #D11512;
   color: white;
   text-align: center;
-}
-
-/* FLEXBOX */
-/* FIGURE OUT HOW TO PLACE THIS WHERE YOU WANT IT */
-.contactBox {
-  display: flex;
-  align-items: left;
-  justify-content: center;
-  color: #C5B7B7;
-}
-
-.contactBox {
-  width: 100px;
-  height: 100px;
-  padding-left: 11rem;
 }
 
 /* OTHER */
