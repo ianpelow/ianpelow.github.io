@@ -19,7 +19,6 @@
 }
 
 .dropdown-content {
-  /* hidden by default */
   display: none;
   position: absolute;
   background-color: white;
