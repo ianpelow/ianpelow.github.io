@@ -56,7 +56,7 @@ body, html{
 		width: 100%;
 		height: 100%;	
 		margin: 0;
-		overflow-X: hidden; /* optional */
+		overflow-X: hidden;
 	}
 
 #i1, #i2, #i3, #i4, #i5{ display: none;}
