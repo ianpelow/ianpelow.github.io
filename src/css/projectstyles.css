@@ -23,7 +23,7 @@
 	display: block;
   }
   
-  /* .toggle-box + label:before {
+   .toggle-box + label:before {
 	background-color: #C5B7B7;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -38,10 +38,11 @@
 	margin-right: 5px;
 	text-align: center;
 	width: 20px;
-
+   }
+   
   .toggle-box:checked + label:before {
 	content: "\2212";
-  } */
+  } 
 
   .page {
 	  text-align: center;
