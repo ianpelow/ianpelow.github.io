@@ -2,7 +2,7 @@
 .dropbtn {
   background-color: #D11512;
   color: white;
-  box-shadow: 0px 8px 16px 0px rgba(197, 183, 183);
+  box-shadow: 0 0 20px #D11512;
   padding: 10px;
   font-size: 22px;
   margin-left: 6rem;
@@ -136,7 +136,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
+  width: 15%;
 }
 
 li {
@@ -147,8 +147,8 @@ li {
   margin-top: -5rem;
 }
 .mePhoto {
-  box-shadow: -10px 10px 30px 2px whitesmoke;
-  border-radius: 10px;
+  box-shadow: 0 0 50px #000000;
+  border-radius: 12px;
 }
 
 ul { 
