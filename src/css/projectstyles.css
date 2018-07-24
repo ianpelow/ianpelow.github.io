@@ -29,7 +29,6 @@
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	color: #D11512;
-	content: "+";
 	display: block;
 	float: left;
 	font-weight: bold;
@@ -40,9 +39,7 @@
 	width: 20px;
    }
    
-  .toggle-box:checked + label:before {
-	content: "\2212";
-  } 
+
 
   .page {
 	  text-align: center;

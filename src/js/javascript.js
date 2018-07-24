@@ -21,7 +21,7 @@ if (!event.target.matches('.dropbtn')) {
 // MODAL
 
 var popup = document.getElementById('myModal');
-         var myBytton = document.getElementById("btn");
+         var myBytton = document.getElementById("modalBtn");
          var span = document.getElementsByClassName("end")[0];
          myBytton.onclick = function() {
             popup.style.display = "block";
