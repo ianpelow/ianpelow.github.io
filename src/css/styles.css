@@ -119,11 +119,15 @@
 }
 
 /* OTHER */
+@-ms-viewport{
+  width: device-width;
+}
+
 a {
   color: #D11512;
   text-decoration: none;
   color: #fff;
-font-size: 1.5em;
+font-size: 1.0em;
 font-weight: bold;
 }
 
@@ -161,7 +165,7 @@ h1 {
                0 20px 20px rgba(0,0,0,.15);
 }
 
-html{
+html {
   width:100%;
   height:100%;
 }

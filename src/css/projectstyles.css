@@ -38,8 +38,6 @@
 	text-align: center;
 	width: 20px;
    }
-   
-
 
   .page {
 	  text-align: center;
@@ -156,7 +154,6 @@ body, html{
 	0%{	opacity:.4;}
 	100%{opacity:1;}
 }		
-
 
 @media screen and (max-width: 685px){
 	.container{
